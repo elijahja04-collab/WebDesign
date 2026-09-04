@@ -9,7 +9,7 @@ body {
     padding: 20px;
 }
 
-img {
-    max-width: 100%;
+#tt-image {
+    width: 200px;
     height:auto;
 }
