@@ -8,17 +8,30 @@ h2 {
     text-align:center;
 }
 
+p {
+    text-align: center;
+}
 body {
     background-color: azure;
     padding: 20px;
 }
 
-#tt-image {
-    width: 100px;
-    height:auto;
+#tt-image, #ig-image {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+    margin-right: 10px;
+    vertical-align: middle;
+
 }
 
-#ig-image {
-    width: 100px;
-    height:auto;
+a {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
 }
