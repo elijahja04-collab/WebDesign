@@ -35,3 +35,10 @@ a {
     color: black;
     background-color: white;
 }
+
+li {
+    list-style-type: none;
+    color: navy;
+    display: inline-block;
+    font-family: Georgia, serif;
+}
