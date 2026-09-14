@@ -1,3 +1,2 @@
-# Social Media Landing Page
-## Making a landing page for all of my pages across different platforms
-I want to make this webpage a hub for all of my social media pages that I can put in each bio. This will create a network for people to connect with me on.
+# How I am feeling
+I am feeling pretty good will all the things we have learned so far. I have picked up some new skills already, but it is mostly review so far since I took a class soley focused on HTML and CSS. 
