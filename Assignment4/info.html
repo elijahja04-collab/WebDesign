@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- ------------------------------------------------ -->
-<!-- ------------------- HEAD ---------------------- -->
-<!-- ------------------------------------------------ -->
-
 <head>
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Info</title>
+    <title>2down500 | Info</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Prompt:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- ------------------------------------------------ -->
-<!-- ------------------- NAV ---------------------- -->
-<!-- ------------------------------------------------ -->
-
-<nav>
-    <!--we shall fill this in later-->
+<nav class="main-nav">
     <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
     </ul>
 </nav>
 
-<!-- ------------------------------------------------ -->
-<!-- ------------------- HEADER ---------------------- -->
-<!-- ------------------------------------------------ -->
+<form class="form-v2">
+    <fieldset>
+        <legend>Contact Me!</legend>
 
-<h1>Contact Info</h1>
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Joe Smith">
 
-<!-- ------------------------------------------------ -->
-<!-- ------------------- P ---------------------- -->
-<!-- ------------------------------------------------ -->
+        <label>Email Address</label>
+        <input type="email" name="email-address" placeholder="example@gmail.com">
 
-<p>email: placeholder@gmail.com</p>
+        <label>Phone Number</label>
+        <input type="text" name="phone-number" placeholder="123-456-7890">
 
-<p>phone: 111-222-3333</p>
+        <label>(For Fun) Favorite Motorcycle Company:</label>
+        <select name="motorcycle-company">
+            <option value="kawasaki">Kawasaki</option>
+            <option value="yamaha">Yamaha</option>
+            <option value="honda">Honda</option>
+            <option value="aprilia">Aprilia</option>
+        </select>
 
+        <label>What is your riding style?</label>
 
+        <label>
+            <input type="radio" name="riding-style" value="twisties">
+            Twisties
+        </label>
 
+        <label>
+            <input type="radio" name="riding-style" value="highway">
+            Highway
+        </label>
 
+        <label>
+            <input type="radio" name="riding-style" value="stunt">
+            Stunting
+        </label>
 
+        <label>Do you own a bike yet?</label>
 
+        <label>
+            <input type="radio" name="questionnaire" value="yes">
+            Yes
+        </label>
 
+        <label>
+            <input type="radio" name="questionnaire" value="no">
+            No
+        </label>
+
+        <button type="submit">Send it!</button>
+    </fieldset>
+</form>
 
 </body>
 </html>
