@@ -30,28 +30,42 @@ p {
 
 .table-v1 h2 {
     text-align: center;
+    color: #00008b;
+    margin-bottom: 20px;
 }
 
 .table-v1 table {
     width: 78%;
     margin: 0 auto 30px;
-    background-color: #fdfdfd;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: 2px solid #00008b;
+}
+
+.table-v1 caption {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00008b;
+    padding: 12px;
+    border-top: 2px solid #00008b;
+    border-bottom: 2px solid #00008b;
+    margin-bottom: 10px;
 }
 
 .table-v1 th,
 .table-v1 td {
-    padding: 12px;
+    padding: 12px 15px;
     border: 1px solid #ccc;
     text-align: left;
 }
 
 .table-v1 th {
-    background-color: #f5f5f5;
+    background-color: #00008b;
+    color: white;
     font-weight: 600;
-    color: #5a3e36;
 }
+
+
 
 .text-v1 {
     padding: 25px;
@@ -131,6 +145,13 @@ p {
     color: #000000;
 }
 
+.form-v2 img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
 .main-nav {
     text-align: center;
     margin-bottom: 30px;
@@ -147,8 +168,11 @@ p {
 }
 
 .main-nav a {
-    display: inline-block;
-    padding: 10px 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 18px;
     margin: 5px;
     border: 2px solid #00008b;
     border-radius: 8px;
@@ -160,6 +184,13 @@ p {
 .main-nav a:hover {
     background-color: #00008b;
     color: #ffffff;
+}
+
+.main-nav img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    vertical-align: middle;
 }
 .hero {
     padding: 2%;
@@ -300,12 +331,22 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    max-width: 600px;
-    margin: 0 auto;
+    gap: 15px;
+    max-width: 650px;
+    margin: 30px auto;
 }
 
 #gallery img {
     width: 30%;
-    height: auto;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid #00008b;
+    padding: 4px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+#gallery img:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease;
 }
