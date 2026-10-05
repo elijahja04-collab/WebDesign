@@ -28,6 +28,52 @@ p {
     font-weight: 400;
 }
 
+.drop-cap {
+    max-width: 400px;
+    color:rgba(243, 246, 255, 0.89);
+    background-color: #4f6058;
+    padding: 30px 40px;
+    border-radius: 8px;
+    max-width: 40%;
+    margin: 0 auto;
+    line-height: 1.4; 
+    }
+
+.drop-cap p::first-letter {
+    font-size: 3rem;
+    line-height: 0.8;
+    float: left;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.drop-cap-image {
+    color:rgba(78, 95, 79, 0.89);
+    background-color: #f6eee4;
+    padding: 30px 40px;
+    padding-top: 45px;
+    border-radius: 8px;
+    max-width: 40%;
+    margin: 0 auto;
+    line-height: 1.4;
+    position: relative;
+    z-index: 0; /* this controls which elements appear in front or behind. The lower the value, the further behind an element sits */
+}
+
+ .drop-cap-image img {
+    width: 120px;
+    height: auto;
+    float: left;
+    object-fit: contain;
+    padding: 0px;
+    position: relative;
+    z-index: -1;
+    top: -35px;
+    left: -10px;
+    margin-bottom: -30px;
+    margin-right: -35px;
+ }
+
 .table-v1 h2 {
     text-align: center;
     color: #00008b;
@@ -237,6 +283,7 @@ p {
     background-color: #00008b;
     color: #ffffff;
     box-sizing: border-box;
+
 }
 
 .hero cite {
@@ -349,4 +396,8 @@ footer {
 #gallery img:hover {
     transform: scale(1.03);
     transition: 0.2s ease;
+}
+
+@media (max-width: 600px) {
+
 }
