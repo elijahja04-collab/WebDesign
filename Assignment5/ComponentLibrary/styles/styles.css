@@ -39,7 +39,7 @@ p {
 
 .video-card {
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid #245a42;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -126,16 +126,16 @@ p {
     margin: 0 auto 30px;
     background-color: #ffffff;
     border-collapse: collapse;
-    border: 2px solid #00008b;
+    border: 2px solid #245a42;
 }
 
 .table-v1 caption {
     font-size: 24px;
     font-weight: bold;
-    color: #00008b;
+    color: #111111;
     padding: 12px;
-    border-top: 2px solid #00008b;
-    border-bottom: 2px solid #00008b;
+    border-top: 2px solid #111111;
+    border-bottom: 2px solid #111111;
     margin-bottom: 10px;
 }
 
@@ -147,7 +147,7 @@ p {
 }
 
 .table-v1 th {
-    background-color: #00008b;
+    background-color: #245a42;
     color: white;
     font-weight: 600;
 }
@@ -228,7 +228,7 @@ p {
 }
 
 .form-v2 button:hover {
-    background-color: #1f68d6;
+    background-color: #245a42;
     color: #000000;
 }
 
@@ -343,7 +343,7 @@ p {
     margin: 50px auto;
     padding: 30px;
     background-color: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #245a42;
     border-radius: 8px;
     box-sizing: border-box;
 }
@@ -354,6 +354,27 @@ p {
 }
 
 .welcome p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+.about {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #245a42;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.about p {
     font-size: 17px;
     line-height: 1.7;
     margin: 0;
@@ -379,7 +400,7 @@ p {
     margin: 15px auto;
     padding: 15px 20px;
     background-color: #f5f5f5;
-    border: 2px solid #00008b;
+    border: 2px solid #245a42;
     border-radius: 8px;
     text-align: left;
     box-sizing: border-box;
@@ -429,7 +450,7 @@ footer {
     width: 30%;
     height: 180px;
     object-fit: cover;
-    border: 2px solid #00008b;
+    border: 2px solid #245a42;
     padding: 4px;
     background-color: white;
     box-sizing: border-box;
