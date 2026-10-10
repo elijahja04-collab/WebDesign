@@ -90,3 +90,78 @@ footer {
     padding-top: 1%;
     padding-bottom: 3%;
 }
+
+.main-nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.main-nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 18px;
+    margin: 5px;
+    border: 2px solid #00008b;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.main-nav a:hover {
+    background-color: #00008b;
+    color: #ffffff;
+}
+
+.main-nav img {
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+.hero {
+    padding: 2%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 10px;
+    padding: 8px 25px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+}
+
+.hero h2 {
+    font-family: "Prompt", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
