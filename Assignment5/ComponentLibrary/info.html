@@ -13,24 +13,25 @@
 
 <nav class="main-nav">
     <ul>
-        <li><a href="index.html"><img src="images/icon-home.png" alt="home icon">Home</a></li>
+        <li><a href="index.html"><img src="images/homev3.png" alt="home icon">Home</a></li>
         <li><a href="about.html"><img src="images/icon-about.png" alt="about icon">About</a></li>
         <li><a href="info.html"><img src="images/icon-info.png" alt="info icon">Info</a></li>
     </ul>
 </nav>
 
-<form class="form-v2">
+<form class="form-v2" action="https://formspree.io/f/xgaolrda" method="POST">
     <fieldset>
         <legend>Contact Me!</legend>
+        <p>THIS DOES WORK!</p>
 
-        <label>Name <img src="images/name.png" alt="name icon"></label>
-        <input type="text" name="name" placeholder="Joe Smith">
+        <label for="name">Name <img src="images/name.png" alt="name icon"></label>
+<input type="text" id="name" name="name" placeholder="Joe Smith" required>
 
-        <label>Email Address<img src="images/icon-mail.png" alt="mail icon"></label>
-        <input type="email" name="email-address" placeholder="example@gmail.com">
+<label for="email-address">Email Address <img src="images/icon-mail.png" alt="mail icon"></label>
+<input type="email" id="email-address" name="email-address" placeholder="example@gmail.com" required>
 
-        <label>Phone Number<img src="images/icon-phone.png" alt="phone icon"></label>
-        <input type="text" name="phone-number" placeholder="123-456-7890">
+<label for="phone-number">Phone Number <img src="images/icon-phone.png" alt="phone icon"></label>
+<input type="tel" id="phone-number" name="phone-number" placeholder="123-456-7890">
 
         <label>(For Fun) Favorite Motorcycle Company:</label>
         <select name="motorcycle-company">
@@ -43,29 +44,29 @@
         <label>What is your riding style?</label>
 
         <label>
-            <input type="radio" name="riding-style" value="twisties">
+            <input type="radio" name="riding-style" value="twisties" required>
             Twisties
         </label>
 
         <label>
-            <input type="radio" name="riding-style" value="highway">
+            <input type="radio" name="riding-style" value="highway" required>
             Highway
         </label>
 
         <label>
-            <input type="radio" name="riding-style" value="stunt">
+            <input type="radio" name="riding-style" value="stunt" required>
             Stunting
         </label>
 
         <label>Do you own a bike yet?</label>
 
         <label>
-            <input type="radio" name="questionnaire" value="yes">
+            <input type="radio" name="questionnaire" value="yes" required>
             Yes
         </label>
 
         <label>
-            <input type="radio" name="questionnaire" value="no">
+            <input type="radio" name="questionnaire" value="no" required>
             No
         </label>
 

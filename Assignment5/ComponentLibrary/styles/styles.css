@@ -1,6 +1,8 @@
+
 body {
-    background-color: #f0ffff;
+    background-color: #858585;
     padding: 20px;
+    padding-top: 30px;
     margin: 0;
     font-family: "Prompt", sans-serif;
     font-size: 16px;
@@ -15,7 +17,7 @@ h3 {
 }
 
 h1 {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -26,8 +28,8 @@ h2 {
 p {
     text-align: center;
     font-weight: 400;
+    color: #ffffff;
 }
-
 
 .video-grid {
     display: grid;
@@ -38,7 +40,7 @@ p {
 }
 
 .video-card {
-    background-color: white;
+    background-color: #363636;
     border: 2px solid #245a42;
     border-radius: 8px;
     overflow: hidden;
@@ -65,20 +67,19 @@ p {
     line-height: 1.2;
     margin: 0;
     text-align: center;
+    color: #ffffff;
 }
-
-
 
 .drop-cap {
     max-width: 400px;
-    color:rgba(243, 246, 255, 0.89);
-    background-color: #4f6058;
+    color: rgba(255, 255, 255, 0.89);
+    background-color: #363636;
     padding: 30px 40px;
     border-radius: 8px;
     max-width: 40%;
     margin: 0 auto;
-    line-height: 1.4; 
-    }
+    line-height: 1.4;
+}
 
 .drop-cap p::first-letter {
     font-size: 3rem;
@@ -89,8 +90,8 @@ p {
 }
 
 .drop-cap-image {
-    color:rgba(78, 95, 79, 0.89);
-    background-color: #f6eee4;
+    color: #ffffff;
+    background-color: #363636;
     padding: 30px 40px;
     padding-top: 45px;
     border-radius: 8px;
@@ -98,10 +99,10 @@ p {
     margin: 0 auto;
     line-height: 1.4;
     position: relative;
-    z-index: 0; /* this controls which elements appear in front or behind. The lower the value, the further behind an element sits */
+    z-index: 0;
 }
 
- .drop-cap-image img {
+.drop-cap-image img {
     width: 120px;
     height: auto;
     float: left;
@@ -113,8 +114,8 @@ p {
     left: -10px;
     margin-bottom: -30px;
     margin-right: -35px;
- }
- 
+}
+
 .table-v1 h2 {
     text-align: center;
     color: #00008b;
@@ -122,11 +123,11 @@ p {
 }
 
 .table-v1 table {
-    width: 78%;
+    width: 50%;
     margin: 0 auto 30px;
-    background-color: #ffffff;
+    background-color: #363636;
     border-collapse: collapse;
-    border: 2px solid #245a42;
+    border: 2px solid #111111;
 }
 
 .table-v1 caption {
@@ -134,25 +135,24 @@ p {
     font-weight: bold;
     color: #111111;
     padding: 12px;
-    border-top: 2px solid #111111;
-    border-bottom: 2px solid #111111;
+    border-top: 3px solid #111111;
+    border-bottom: 3px solid #111111;
     margin-bottom: 10px;
 }
 
 .table-v1 th,
 .table-v1 td {
-    padding: 12px 15px;
+    padding: 8px 12px;
     border: 1px solid #ccc;
     text-align: left;
+    color: #ffffff;
 }
 
 .table-v1 th {
     background-color: #245a42;
-    color: white;
+    color: #ffffff;
     font-weight: 600;
 }
-
-
 
 .text-v1 {
     padding: 25px;
@@ -163,13 +163,13 @@ p {
 }
 
 .form-v2 {
-    background-color: #ffffff;
+    background-color: #363636;
     padding: 25px;
-    border: 2px solid #000000;
+    border: 2px solid #111111;
     border-radius: 8px;
     width: 75%;
     max-width: 700px;
-    margin: 30px auto;
+    margin: 80px auto;
     box-sizing: border-box;
 }
 
@@ -185,28 +185,37 @@ p {
     font-weight: 500;
     text-align: center;
     margin-bottom: 20px;
-    color: #000000;
+    color: #ffffff;
 }
 
 .form-v2 label {
     display: block;
     margin-top: 15px;
     font-weight: 400;
-    color: #000000;
+    color: #ffffff;
 }
+
 
 .form-v2 input[type="text"],
 .form-v2 input[type="email"],
+.form-v2 input[type="tel"],
 .form-v2 select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     font-size: 1rem;
-    border: 1px solid #aaa;
+    border: 1px solid #111111;
     border-radius: 5px;
     box-sizing: border-box;
     font-family: "Prompt", sans-serif;
     font-weight: 400;
+    background-color: #858585;
+    color: #ffffff;
+}
+
+
+.form-v2 input::placeholder {
+    color: #eeeeee;
 }
 
 .form-v2 input[type="radio"] {
@@ -216,20 +225,20 @@ p {
 .form-v2 button {
     display: block;
     margin: 25px auto 0;
-    background-color: #00008b;
-    color: white;
+    background-color: #245a42;
+    color: #ffffff;
     padding: 10px 25px;
     font-size: 1rem;
     font-weight: 500;
-    border: 2px solid #000000;
+    border: 2px solid #111111;
     border-radius: 8px;
     cursor: pointer;
     font-family: "Prompt", sans-serif;
 }
 
 .form-v2 button:hover {
-    background-color: #245a42;
-    color: #000000;
+    background-color: #111111;
+    color: #ffffff;
 }
 
 .form-v2 img {
@@ -239,10 +248,20 @@ p {
     vertical-align: middle;
 }
 
+
 .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     text-align: center;
     margin-bottom: 30px;
+    padding: 2px 0;
+    background-color: #171717;
+    box-sizing: border-box;
 }
+
 
 .main-nav ul {
     padding: 0;
@@ -261,15 +280,15 @@ p {
     gap: 8px;
     padding: 8px 18px;
     margin: 5px;
-    border: 2px solid #00008b;
+    border: 2px solid #245a42;
     border-radius: 8px;
     text-decoration: none;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #363636;
 }
 
 .main-nav a:hover {
-    background-color: #00008b;
+    background-color: #245a42;
     color: #ffffff;
 }
 
@@ -279,6 +298,7 @@ p {
     object-fit: contain;
     vertical-align: middle;
 }
+
 .hero {
     padding: 2%;
     max-width: 1200px;
@@ -290,25 +310,27 @@ p {
     width: fit-content;
     margin: 0 auto 10px;
     padding: 8px 25px;
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 3px solid #111111;
+    border-bottom: 3px solid #111111;
     font-family: "Oswald", sans-serif;
     font-size: 64px;
+    color: #111111;
 }
 
 .hero h2 {
     font-family: "Prompt", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 .hero img {
     display: block;
     width: 100%;
-    max-width: 1000px;
-    height: 500px;
+    max-width: none;
+    height: 650px;
     margin: 0 auto;
     object-fit: cover;
     border-radius: 8px;
@@ -321,10 +343,10 @@ p {
     text-align: center;
     font-weight: 600;
     font-size: 30px;
-    background-color: #00008b;
+    background-color: #245a42;
     color: #ffffff;
     box-sizing: border-box;
-
+    border-radius: 8px 8px 0 0;
 }
 
 .hero cite {
@@ -334,15 +356,17 @@ p {
     padding: 5px 20px 30px;
     text-align: center;
     color: #ffffff;
-    background-color: #00008b;
+    background-color: #245a42;
     box-sizing: border-box;
+    border-radius: 0 0 8px 8px;
 }
+
 
 .welcome {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #363636;
     border: 2px solid #245a42;
     border-radius: 8px;
     box-sizing: border-box;
@@ -351,19 +375,21 @@ p {
 .welcome h2 {
     font-size: 32px;
     margin-top: 0;
+    color: #ffffff;
 }
 
 .welcome p {
     font-size: 17px;
     line-height: 1.7;
     margin: 0;
+    color: #ffffff;
 }
 
 .about {
     max-width: 1000px;
     margin: 50px auto;
     padding: 30px;
-    background-color: #ffffff;
+    background-color: #363636;
     border: 2px solid #245a42;
     border-radius: 8px;
     box-sizing: border-box;
@@ -372,12 +398,14 @@ p {
 .about h2 {
     font-size: 32px;
     margin-top: 0;
+    color: #ffffff;
 }
 
 .about p {
     font-size: 17px;
     line-height: 1.7;
     margin: 0;
+    color: #ffffff;
 }
 
 .socials {
@@ -399,7 +427,7 @@ p {
     max-width: 500px;
     margin: 15px auto;
     padding: 15px 20px;
-    background-color: #f5f5f5;
+    background-color: #363636;
     border: 2px solid #245a42;
     border-radius: 8px;
     text-align: left;
@@ -417,21 +445,23 @@ p {
 .social-card h3 {
     margin: 0 0 5px;
     font-size: 22px;
+    color: #ffffff;
 }
 
 .social-card a {
-    color: #00008b;
+    color: #ffffff;
     text-decoration: none;
     font-weight: 500;
 }
 
 .social-card:hover {
-    background-color: #ffffff;
+    background-color: #363636;
+    border-color: #ffffff;
     transform: translateY(-2px);
 }
 
 footer {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     font-family: "Prompt", sans-serif;
     margin-top: 50px;
@@ -452,7 +482,7 @@ footer {
     object-fit: cover;
     border: 2px solid #245a42;
     padding: 4px;
-    background-color: white;
+    background-color: #111111;
     box-sizing: border-box;
 }
 
@@ -479,5 +509,4 @@ footer {
         font-size: 20px;
         padding: 20px 15px 10px;
     }
-   
 }
