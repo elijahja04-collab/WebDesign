@@ -132,10 +132,10 @@ p {
 .table-v1 caption {
     font-size: 24px;
     font-weight: bold;
-    color: #111111;
+    color: #00008b;
     padding: 12px;
-    border-top: 2px solid #111111;
-    border-bottom: 2px solid #111111;
+    border-top: 2px solid #00008b;
+    border-bottom: 2px solid #00008b;
     margin-bottom: 10px;
 }
 
