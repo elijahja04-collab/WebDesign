@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: #24343d;
-  background-color: #f1f4f2;
+  background-color: #eeecee;
   line-height: 1.65;
 }
 
@@ -427,6 +427,10 @@ button:focus,
 input:focus {
     outline: 2px solid #4a90e2;
     outline-offset: 2px;
+}
+
+.contact {
+
 }
 @media (min-width: 600px) and (max-width: 1024px) {
   /* Styles for tablets */
