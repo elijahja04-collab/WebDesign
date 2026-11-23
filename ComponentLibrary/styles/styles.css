@@ -1,4 +1,4 @@
-
+/* TEXT */
 body {
     background-color: #858585;
     padding: 90px 20px 20px;
@@ -30,6 +30,7 @@ p {
     color: #ffffff;
 }
 
+/* VIDEOS */
 .video-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -69,6 +70,7 @@ p {
     color: #ffffff;
 }
 
+/* DROP CAP */
 .drop-cap {
     max-width: 400px;
     color: rgba(255, 255, 255, 0.89);
@@ -115,6 +117,7 @@ p {
     margin-right: -35px;
 }
 
+/* TABLE */
 .table-v1 h2 {
     text-align: center;
     color: #00008b;
@@ -161,6 +164,7 @@ p {
     font-weight: 400;
 }
 
+/* FORM */
 .form-v2 {
     background-color: #363636;
     padding: 25px;
@@ -247,7 +251,7 @@ p {
     vertical-align: middle;
 }
 
-
+/* NAVIGATION */
 .main-nav {
     position: fixed;
     top: 0;
@@ -298,6 +302,7 @@ p {
     vertical-align: middle;
 }
 
+/* HERO */
 .hero {
     padding: 2%;
     max-width: 1200px;
@@ -360,7 +365,7 @@ p {
     border-radius: 0 0 8px 8px;
 }
 
-
+/* WELCOME */
 .welcome {
     max-width: 800px;
     margin: 50px auto;
@@ -384,6 +389,7 @@ p {
     color: #ffffff;
 }
 
+/* ABOUT */
 .about {
     max-width: 1000px;
     margin: 50px auto;
@@ -407,6 +413,7 @@ p {
     color: #ffffff;
 }
 
+/* SOCIAL LINKS */
 .socials {
     max-width: 800px;
     margin: 50px auto;
@@ -459,6 +466,7 @@ p {
     transform: translateY(-2px);
 }
 
+/* FOOTER */
 footer {
     color: #ffffff;
     text-align: center;
@@ -466,6 +474,7 @@ footer {
     margin-top: 50px;
 }
 
+/* GALLERY */
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -509,7 +518,7 @@ footer {
     margin-top: 3px;
 }
 
-
+/* PAGE SETUP */
 @media (max-width: 600px) {
     .hero h1 {
         font-size: 40px;
